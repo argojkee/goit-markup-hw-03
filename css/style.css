@@ -182,13 +182,12 @@ img {
         .site-nav {
            
             display: flex;
+            gap: 40px;
             
         }
        
         .site-nav-link {
             padding: 24px 0 24px 0;
-            
-            margin-right: 40px;
         }
         .site-nav .site-nav-item:last-child{
             margin-right: 0;
@@ -579,6 +578,7 @@ img {
 
         .photo-content {
             margin-bottom: 32px;
+            width: calc((100% - 48px) / 3);
             
         }
 
