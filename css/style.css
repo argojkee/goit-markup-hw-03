@@ -527,10 +527,7 @@ img {
          
         }
         
-        .container-content-list {
-          
-            
-        }
+    
         .filter-list {
         list-style: none;
         display: flex;
@@ -574,12 +571,13 @@ img {
             
         }
 
+        .content-list-item {
+            width: calc((100% - 48px) / 3);
+        }
         
 
         .photo-content {
             margin-bottom: 32px;
-            width: calc((100% - 48px) / 3);
-            
         }
 
         .content-list-title {
