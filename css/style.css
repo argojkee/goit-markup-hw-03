@@ -497,7 +497,8 @@ img {
     /* Text */
     .footer-text {
         color: #E7E9FC;
-        line-height: 1.5;
+        margin: 0;
+       
     }
 
 
