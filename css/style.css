@@ -431,6 +431,8 @@ img {
     }
     .name-team {
         text-align: center;
+        margin-bottom: 8px;
+        margin-top: 0;
         
     }
     .team-part {
