@@ -117,6 +117,7 @@ img {
 .container {
     width: 1158px;
     padding: 0 15px 0 15px;
+    margin: 0 auto;
    
 }
 
@@ -363,9 +364,7 @@ img {
         color: var(--title-color);
     }
 
-    .doing .container {
-        margin-bottom: 120px;
-    }
+   
     .title-doing {
         text-align: center;
         text-transform: capitalize;
@@ -424,18 +423,13 @@ img {
     }
 
     
-    .photo-team {
-        margin-bottom: 32px;
-        
-        
-    }
+  
 
     .info-member {
         padding: 32px 16px;
         border-radius: 0px 0px 4px 4px;
     }
     .name-team {
-        margin-bottom: 8px;
         text-align: center;
         
     }
@@ -451,8 +445,6 @@ img {
         letter-spacing: 0.02em;
         color: #434455;
         margin-top: 8px;
-        padding-bottom: 32px;
-        width: 264px;
         text-align: center;
         margin: 0;
     }
@@ -503,7 +495,7 @@ img {
     /* Text */
     .footer-text {
         color: #E7E9FC;
-        width: 264px;
+        line-height: 1.5;
     }
 
 
@@ -583,6 +575,7 @@ img {
             line-height: 1.2;
             letter-spacing: 0.02em;
             margin-bottom: 8px;
+            margin-top: 0;
         }
 
         .content-list-text {
@@ -591,6 +584,7 @@ img {
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: var(--primary-color);
+            margin: 0;
           
           
             
