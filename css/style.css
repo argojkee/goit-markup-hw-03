@@ -186,13 +186,14 @@ img {
         }
        
         .site-nav-item {
-            padding-top: 24px;
-            padding-bottom: 24px;
+            padding: 24px 0 24px 0;
             margin-right: 40px;
         }
         .site-nav .site-nav-item:last-child{
             margin-right: 0;
         }
+
+
 
       
 
@@ -441,9 +442,7 @@ img {
     .team-part {
         background-color: #FFFFFF;
         text-align: center;
-    
-     
-
+        width: calc((100% - 72px) / 4);
     }
 /* Team information */
     .team-profession {
@@ -518,6 +517,7 @@ img {
     /* Portfolio */
 
     .portfolio-main {
+        padding: 96px;
         padding-bottom: 120px;
     }
 
@@ -536,7 +536,6 @@ img {
         display: flex;
         
         justify-content: center;
-        margin-top: 96px;
         margin-bottom: 72px;
         }
 
