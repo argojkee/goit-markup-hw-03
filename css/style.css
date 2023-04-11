@@ -553,7 +553,7 @@ img {
         }
         /* Content */
 
-     .container-link-name {
+     .container-content-info {
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
@@ -574,12 +574,8 @@ img {
         .content-list-item {
             width: calc((100% - 48px) / 3);
         }
+
         
-
-        .photo-content {
-            margin-bottom: 32px;
-        }
-
         .content-list-title {
             color: var(--title-color);
             font-size: 20px;
