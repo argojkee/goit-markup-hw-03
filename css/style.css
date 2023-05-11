@@ -462,12 +462,7 @@ img {
     /* Footer */
     .footer{
         background: #2E2F42;
-        height: 312px;
         padding: 100px 0 100px 0;
-    }
-    
-    .logo-footer {
-        display: inline-block;
     }
 
 
@@ -475,6 +470,7 @@ img {
    
 
     .logo-footer {
+        display: inline-block;
         margin-bottom: 16px;
     }
     .logo-studio-footer {
